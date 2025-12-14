@@ -1,0 +1,173 @@
+[ 2025-12-14 16:33:56,721 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.234.113:5000
+[ 2025-12-14 16:33:56,722 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-12-14 16:38:27,222 ] 97 werkzeug - ERROR - 127.0.0.1 - - [14/Dec/2025 16:38:27] code 400, message Bad request version ('\x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063úú\x00\x00\x00')
+[ 2025-12-14 16:38:27,240 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 16:38:27] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03\x18\x04a!1PÔ*\x8eªk¥[H\x96\x96\x85m'´ªó².»\\öT©\x99|( ~£ãÝÈj\x95¯±7sLq]¸®ãÍ\x923\x0e\x84A\x8eL`é\x00#=\x94\x99\x00 \x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063úú\x00\x00\x00[0m" 400 -
+[ 2025-12-14 16:38:27,251 ] 97 werkzeug - ERROR - 127.0.0.1 - - [14/Dec/2025 16:38:27] code 400, message Bad request version (']C[ü£=Å·à\x0eãSß\x8b\x80\x19¸8\x17+¸`r(¯\x02p\x99]¾\x01ë\x9cì¤\x8c\x16ÝFªK\x00\x1b\x00\x03\x02\x00\x02\x00\x12\x00\x00\x00')
+[ 2025-12-14 16:38:27,254 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 16:38:27] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03\x9eÜ\x0bazÜ\x8a\x1dÀPé\x89,\x18wÜ¡\x1fÎÙà>o½I®\x9d\x91 Yøø M\x0c®h¸ßZ\x17²rt\x12ìá\x17\x1dÛ\x01à9Ón\x85\x1f &¨\x0bY\x9a`¦\x00 zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063JJ\x00\x00ÿ\x01\x00\x01\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01þ\x0d\x00º\x00\x00\x01\x00\x01\x86\x00 HºÖ\\F\x83³ù]­·\x89\x9a\x87B\x0d$MÙ¶\x08Å\x00ì¥·3\x82ã\x92ÓI\x00\x90Jh_¦&\\`ST5ðæÆ¤ûãto¡l:ú¯rÅK5y\x88'õr(\x8a­\x1b/\x03\x98U\x15«.ÇÉ\x98·\x81û\x95\x87\x15µ¯Ôv\x7fLZ®Èdq-\x15\x13A>\x82¿Û%¹x\x01v,+\x1a\x12«æ'\x9bà7áÐiXªm÷\x89&<*3d\x8d2\x93\x1f]C[ü£=Å·à\x0eãSß\x8b\x80\x19¸8\x17+¸`r(¯\x02p\x99]¾\x01ë\x9cì¤\x8c\x16ÝFªK\x00\x1b\x00\x03\x02\x00\x02\x00\x12\x00\x00\x00[0m" 400 -
+[ 2025-12-14 16:40:20,583 ] 97 werkzeug - ERROR - 127.0.0.1 - - [14/Dec/2025 16:40:20] code 400, message Bad request version ('A3[²Ê')
+[ 2025-12-14 16:40:20,584 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 16:40:20] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03nÒÉ\x05N\x04,2ïß|Â?mÎyZ\x0eØ¥"¬¨H#JÆµ­OÐ\x90 ËXÏëv×ÈÒëâáê%¦\x8c²v¯y ZÏ\x06ZTs\x11×i²\x86"\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93ZZ\x00\x00\x00+\x00\x07\x06ÚÚ\x03\x04\x03\x03\x00\x0b\x00\x02\x01\x00\x00\x12\x00\x00\x00-\x00\x02\x01\x01\x00\x1b\x00\x03\x02\x00\x02ÿ\x01\x00\x01\x00\x003\x04ï\x04íÊÊ\x00\x01\x00\x11ì\x04À\x0d\x96\x8a\x08\x9b:VÌ{\x7f{\x08Þa3¥\x03Z(<$Í7\x9bTh\x81I\x96«» \x80ÝÌ\x9aÙVW\x83ª'\x99¡£ì;\x13\x05g\x94\x7f\x03Köæ±Ö×\x81\x03¥LÕ\x82Ëtà\x00ÄÙw´7½Ö!.½$\x9dz(i5\x1a7­ä¸\x8eºj\x8ei¨å\x820:\x9c³Ægº\x87kµ\x12E\x90N\x16\x96[*Ìæ·\x18\x9eË\x99>È\x9aÞ¹9s\x08\x8a\x109\x0f\x9ewsúu\x85íÒ\x96'\x89\x13\x83\x92½aÙ4\x1e\x9b2\x9cYI|\x89\x80cô/2Ü(Ä\x94Ã1\x8a½=<uó4kÜC<\x11\x95w\x12uµ£\x81PÍu\\\\bfJ¨\x7f\x9b¡\x9f\x9a \x04\x1cc¤Ü\x991ÿ»?~'a#g ,ÒU\x11\x94\x86v"kÕ²¡â'J¦<®$H£O×\x93ëü9\x06Ø\x8f«¹\x01FÒ\x80°\x07\x7f\x80\x00\x94\x1eì»¹Ñ|8\x0b¨zhÂ\x15f^I\x0c\x19\x8b l\x1fRÏað/\x82\x8co!\x8b¤=b`#k\x87\x9a4\x85\x17Ó\x0d\x1dÚ_\x9a\x12À\x0câD<§ÆËwaOaIbhªàö\x8a\x1dñmKDPñE\x7f\x9eµIùð(\x8b¼\x0c\x11!\x09¤Xbø\x89\x99¯\x15\x89Ú°°?\x91·­&3\x85*\x12Ì\x96Ç¦q¥Ô×\x01Ê\x1a\x8fð\x00AÁH¸ME\x035Ó¤õ\x96s[ÐÇ¾õ97\x12%\x11,\x03~\x063´\x00¨\x80r\x80 g\x1a\x15\x839\x1dA3[²Ê[0m" 400 -
+[ 2025-12-14 16:40:20,589 ] 97 werkzeug - ERROR - 127.0.0.1 - - [14/Dec/2025 16:40:20] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+[ 2025-12-14 16:40:20,589 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 16:40:20] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03Ó%Ê\x85Ó0úñrpë\x0eóÑø\x09\x93è\x8am\x86kÆ\x85î8\x94I(ÌØ\x18 43Enso¥2õøfò\x17oRxñ{\x94ì¬=Á½\x86]RÇ!×\x96b\x00 \x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s\x1a\x1a\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00-\x00\x02\x01\x01ÿ\x01\x00\x01\x00\x00+\x00\x07\x06úú\x03\x04\x03\x03\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00[0m" 400 -
+[ 2025-12-14 16:42:31,257 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 16:42:31] "GET / HTTP/1.1" 200 -
+[ 2025-12-14 16:42:32,549 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 16:42:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2025-12-14 16:43:24,093 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 16:43:24] "GET / HTTP/1.1" 200 -
+[ 2025-12-14 16:43:28,399 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 16:43:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2025-12-14 16:43:51,908 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 16:43:51] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-12-14 16:44:50,917 ] 875 app - ERROR - Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\pipeline\predict_pipeline.py", line 13, in predict
+    model_path=os.path.join("artifacts","model.pkl")
+               ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\app.py", line 39, in predict_datapoint
+    results=predict_pipeline.predict(pred_df)
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\pipeline\predict_pipeline.py", line 24, in predict
+    raise CustomException(e, sys)
+src.exception.CustomException: Erro occured in python script name [C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\pipeline\predict_pipeline.py] line number [13] error meassge[name 'os' is not defined]
+[ 2025-12-14 16:44:50,943 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 16:44:50] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2025-12-14 16:47:09,403 ] 875 app - ERROR - Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\pipeline\predict_pipeline.py", line 13, in predict
+    model_path=os.path.join("artifacts","model.pkl")
+               ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\app.py", line 39, in predict_datapoint
+    results=predict_pipeline.predict(pred_df)
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\pipeline\predict_pipeline.py", line 24, in predict
+    raise CustomException(e, sys)
+src.exception.CustomException: Erro occured in python script name [C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\pipeline\predict_pipeline.py] line number [13] error meassge[name 'os' is not defined]
+[ 2025-12-14 16:47:09,409 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 16:47:09] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2025-12-14 16:47:13,700 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 16:47:13] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-12-14 16:47:55,291 ] 875 app - ERROR - Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\pipeline\predict_pipeline.py", line 13, in predict
+    model_path=os.path.join("artifacts","model.pkl")
+               ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\app.py", line 39, in predict_datapoint
+    results=predict_pipeline.predict(pred_df)
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\pipeline\predict_pipeline.py", line 24, in predict
+    raise CustomException(e, sys)
+src.exception.CustomException: Erro occured in python script name [C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\pipeline\predict_pipeline.py] line number [13] error meassge[name 'os' is not defined]
+[ 2025-12-14 16:47:55,302 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 16:47:55] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2025-12-14 16:53:31,075 ] 875 app - ERROR - Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\pipeline\predict_pipeline.py", line 13, in predict
+    model_path=os.path.join("artifacts","model.pkl")
+               ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\app.py", line 39, in predict_datapoint
+    results=predict_pipeline.predict(pred_df)
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\pipeline\predict_pipeline.py", line 24, in predict
+    raise CustomException(e,sys)
+src.exception.CustomException: Erro occured in python script name [C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\pipeline\predict_pipeline.py] line number [13] error meassge[name 'os' is not defined]
+[ 2025-12-14 16:53:31,193 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 16:53:31] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2025-12-14 16:53:38,253 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 16:53:38] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-12-14 16:53:39,489 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 16:53:39] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-12-14 16:54:18,492 ] 875 app - ERROR - Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\pipeline\predict_pipeline.py", line 13, in predict
+    model_path=os.path.join("artifacts","model.pkl")
+               ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\app.py", line 39, in predict_datapoint
+    results=predict_pipeline.predict(pred_df)
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\pipeline\predict_pipeline.py", line 24, in predict
+    raise CustomException(e,sys)
+src.exception.CustomException: Erro occured in python script name [C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\pipeline\predict_pipeline.py] line number [13] error meassge[name 'os' is not defined]
+[ 2025-12-14 16:54:18,521 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 16:54:18] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2025-12-14 16:59:09,737 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 16:59:09] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-12-14 17:00:34,580 ] 875 app - ERROR - Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\pipeline\predict_pipeline.py", line 13, in predict
+    model_path=os.path.join("artifacts","model.pkl")
+               ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\app.py", line 39, in predict_datapoint
+    results=predict_pipeline.predict(pred_df)
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\pipeline\predict_pipeline.py", line 24, in predict
+    raise CustomException(e,sys)
+src.exception.CustomException: Erro occured in python script name [C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\pipeline\predict_pipeline.py] line number [13] error meassge[name 'os' is not defined]
+[ 2025-12-14 17:00:34,589 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 17:00:34] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2025-12-14 17:04:32,823 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 17:04:32] "GET /predictdata HTTP/1.1" 200 -

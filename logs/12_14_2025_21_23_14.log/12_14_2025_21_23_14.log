@@ -1,0 +1,113 @@
+[ 2025-12-14 21:23:15,006 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.2:5000
+[ 2025-12-14 21:23:15,007 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-12-14 21:24:30,672 ] 875 app - ERROR - Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\utils.py", line 58, in load_object
+    with open(file_path, "rb") as file_obj:
+         ~~~~^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts\\preprocessor.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\pipeline\predict_pipeline.py", line 18, in predict
+    preprocessor=load_object(file_path=preprocessor_path)
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\utils.py", line 62, in load_object
+    raise CustomException(e, sys)
+src.exception.CustomException: Erro occured in python script name [C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\utils.py] line number [58] error meassge[[Errno 2] No such file or directory: 'artifacts\\preprocessor.pkl']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\app.py", line 39, in predict_datapoint
+    results=predict_pipeline.predict(pred_df)
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\pipeline\predict_pipeline.py", line 25, in predict
+    raise CustomException(e,sys)
+src.exception.CustomException: Erro occured in python script name [C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\pipeline\predict_pipeline.py] line number [18] error meassge[Erro occured in python script name [C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\utils.py] line number [58] error meassge[[Errno 2] No such file or directory: 'artifacts\\preprocessor.pkl']]
+[ 2025-12-14 21:24:30,724 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 21:24:30] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2025-12-14 21:25:13,571 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 21:25:13] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-12-14 21:25:19,422 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 21:25:19] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-12-14 21:25:52,021 ] 875 app - ERROR - Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\utils.py", line 58, in load_object
+    with open(file_path, "rb") as file_obj:
+         ~~~~^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts\\preprocessor.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\pipeline\predict_pipeline.py", line 18, in predict
+    preprocessor=load_object(file_path=preprocessor_path)
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\utils.py", line 62, in load_object
+    raise CustomException(e, sys)
+src.exception.CustomException: Erro occured in python script name [C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\utils.py] line number [58] error meassge[[Errno 2] No such file or directory: 'artifacts\\preprocessor.pkl']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\app.py", line 39, in predict_datapoint
+    results=predict_pipeline.predict(pred_df)
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\pipeline\predict_pipeline.py", line 25, in predict
+    raise CustomException(e,sys)
+src.exception.CustomException: Erro occured in python script name [C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\pipeline\predict_pipeline.py] line number [18] error meassge[Erro occured in python script name [C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\utils.py] line number [58] error meassge[[Errno 2] No such file or directory: 'artifacts\\preprocessor.pkl']]
+[ 2025-12-14 21:25:52,094 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 21:25:52] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2025-12-14 22:13:35,865 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 22:13:35] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-12-14 22:13:44,635 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 22:13:44] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-12-14 22:13:47,343 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 22:13:47] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-12-14 22:13:48,474 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 22:13:48] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-12-14 22:14:27,857 ] 875 app - ERROR - Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\utils.py", line 58, in load_object
+    with open(file_path, "rb") as file_obj:
+         ~~~~^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts\\preprocessor.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\pipeline\predict_pipeline.py", line 18, in predict
+    preprocessor=load_object(file_path=preprocessor_path)
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\utils.py", line 62, in load_object
+    raise CustomException(e, sys)
+src.exception.CustomException: Erro occured in python script name [C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\utils.py] line number [58] error meassge[[Errno 2] No such file or directory: 'artifacts\\preprocessor.pkl']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\app.py", line 39, in predict_datapoint
+    results=predict_pipeline.predict(pred_df)
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\pipeline\predict_pipeline.py", line 25, in predict
+    raise CustomException(e,sys)
+src.exception.CustomException: Erro occured in python script name [C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\pipeline\predict_pipeline.py] line number [18] error meassge[Erro occured in python script name [C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\utils.py] line number [58] error meassge[[Errno 2] No such file or directory: 'artifacts\\preprocessor.pkl']]
+[ 2025-12-14 22:14:27,908 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 22:14:27] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -

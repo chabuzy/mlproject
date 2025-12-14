@@ -1,5 +1,5 @@
 # Ignore Python virtual environment
-.artifacts
+.artifacts/
 .env
 .venv
 env/

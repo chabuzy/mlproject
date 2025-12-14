@@ -1,0 +1,46 @@
+[ 2025-12-14 22:16:17,345 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.2:5000
+[ 2025-12-14 22:16:17,346 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-12-14 22:16:33,055 ] 97 werkzeug - ERROR - 127.0.0.1 - - [14/Dec/2025 22:16:33] code 400, message Bad request version ('\x00\x02\x01\x00\x00+\x00\x07\x06\x1a\x1a\x03\x04\x03\x03\x00\x12\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+[ 2025-12-14 22:16:33,057 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 22:16:33] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x032mUÿ\x8fQ× \x04\x97}\x0dT§¹ð\x10-7|z\x99g!ÄÅ¦\x19\x0bê K ¼çñè8\x94M\x88RG)«ã_ªxÆA\x93`ºû\x84{l\x12æy\x9c®\\\x17\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sJJ\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01ÿ\x01\x00\x01\x00\x00\x1b\x00\x03\x02\x00\x02\x00-\x00\x02\x01\x01DÍ\x00\x05\x00\x03\x02h2\x00\x0b\x00\x02\x01\x00\x00+\x00\x07\x06\x1a\x1a\x03\x04\x03\x03\x00\x12\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00[0m" 400 -
+[ 2025-12-14 22:16:33,060 ] 97 werkzeug - ERROR - 127.0.0.1 - - [14/Dec/2025 22:16:33] code 400, message Bad request version ('\x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93jj\x00\x00\x00-\x00\x02\x01\x01\x00')
+[ 2025-12-14 22:16:33,061 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 22:16:33] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03?^þ\\}\x0ey»BáØ÷lÇ!ñý\x1c\x14Î,¢\x0dW\x80ûmÍ\x89â(ð ä \x9aÄ6\x9d<àÿs¨:\x09Ý^XÔ\x91õÉâs\x0d6\x85n\x8e\x9c¸p\x93#\x00 \x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93jj\x00\x00\x00-\x00\x02\x01\x01\x00[0m" 400 -
+[ 2025-12-14 22:16:39,207 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 22:16:39] "GET / HTTP/1.1" 200 -
+[ 2025-12-14 22:16:49,732 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 22:16:49] "GET / HTTP/1.1" 200 -
+[ 2025-12-14 22:17:00,737 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 22:17:00] "GET /predictdata HTTP/1.1" 200 -
+[ 2025-12-14 22:17:44,172 ] 875 app - ERROR - Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\utils.py", line 58, in load_object
+    with open(file_path, "rb") as file_obj:
+         ~~~~^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts\\preprocessor.pkl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\pipeline\predict_pipeline.py", line 18, in predict
+    preprocessor=load_object(file_path=preprocessor_path)
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\utils.py", line 62, in load_object
+    raise CustomException(e, sys)
+src.exception.CustomException: Erro occured in python script name [C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\utils.py] line number [58] error meassge[[Errno 2] No such file or directory: 'artifacts\\preprocessor.pkl']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\app.py", line 39, in predict_datapoint
+    results=predict_pipeline.predict(pred_df)
+  File "C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\pipeline\predict_pipeline.py", line 25, in predict
+    raise CustomException(e,sys)
+src.exception.CustomException: Erro occured in python script name [C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\pipeline\predict_pipeline.py] line number [18] error meassge[Erro occured in python script name [C:\Users\chibuzor\OneDrive\Desktop\mlproject\src\utils.py] line number [58] error meassge[[Errno 2] No such file or directory: 'artifacts\\preprocessor.pkl']]
+[ 2025-12-14 22:17:44,188 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Dec/2025 22:17:44] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
